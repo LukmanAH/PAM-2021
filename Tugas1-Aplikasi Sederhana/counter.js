@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import { Image, Text, StyleSheet, View, TouchableOpacity, TextInput } from "react-native";
+import { Text, StyleSheet, View, TouchableOpacity } from "react-native";
 import { useDispatch, useSelector } from 'react-redux'
 import { tambahCounter, resetCounter } from './redux/action'
 
